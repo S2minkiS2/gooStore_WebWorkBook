@@ -16,7 +16,8 @@
             <h3>여기는 Input페이지 입니다.</h3>
             <hr>
             <form action="/calc/input" method="post">
-                <input name="param1">
+                <input type="number" name="num1">
+                <input type="number" name="num2">
                 <button>submit</button>
             </form>
         </div>

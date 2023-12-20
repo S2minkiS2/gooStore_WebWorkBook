@@ -23,8 +23,10 @@ public class inputController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String s1 = req.getParameter("param1");
+        String s1 = req.getParameter("num1");
+        String s2 = req.getParameter("num2");
 
         System.out.println(s1);
+        System.out.println(s2);
     }
 }
